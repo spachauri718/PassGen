@@ -35,7 +35,7 @@ function App() {
   </div>
 
   <div className='flex flex-col mt-8 mx-auto max-w-md'>
-    <label className='text-lg mb-2 text-gray-800'>Password Length</label>
+    <label className='text-lg mb-2 text-gray-800'>Password Length : {length}</label>
     <input
       type="range"
       min={1}
